@@ -92,7 +92,7 @@ namespace Inventory.Service.Api.Controllers
 
                     return Ok();
                 }
-                catch (Exception ex)
+                catch (Microsoft.EntityFrameworkCore.DbUpdateConcurrencyException ex)
                 {
                     if (ex.GetType().FullName == "Microsoft.EntityFrameworkCore.DbUpdateConcurrencyException")
                     {
