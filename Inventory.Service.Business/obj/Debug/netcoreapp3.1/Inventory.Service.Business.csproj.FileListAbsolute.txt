@@ -1,0 +1,14 @@
+C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Business\obj\Debug\netcoreapp3.1\Inventory.Service.Business.csprojAssemblyReference.cache
+C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Business\obj\Debug\netcoreapp3.1\Inventory.Service.Business.AssemblyInfoInputs.cache
+C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Business\obj\Debug\netcoreapp3.1\Inventory.Service.Business.AssemblyInfo.cs
+C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Business\bin\Debug\netcoreapp3.1\Inventory.Service.Business.deps.json
+C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Business\bin\Debug\netcoreapp3.1\Inventory.Service.Business.dll
+C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Business\bin\Debug\netcoreapp3.1\Inventory.Service.Business.pdb
+C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Business\bin\Debug\netcoreapp3.1\Inventory.Service.Domain.dll
+C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Business\bin\Debug\netcoreapp3.1\Inventory.Service.Repositories.dll
+C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Business\bin\Debug\netcoreapp3.1\Inventory.Service.Domain.pdb
+C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Business\bin\Debug\netcoreapp3.1\Inventory.Service.Repositories.pdb
+C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Business\obj\Debug\netcoreapp3.1\Inventory.Service.Business.csproj.CopyComplete
+C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Business\obj\Debug\netcoreapp3.1\Inventory.Service.Business.dll
+C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Business\obj\Debug\netcoreapp3.1\Inventory.Service.Business.pdb
+C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Business\obj\Debug\netcoreapp3.1\Inventory.Service.Business.csproj.CoreCompileInputs.cache
