@@ -9,5 +9,11 @@ namespace Inventory.Service.Repositories
    public interface IRepositorie
     {
         //Task<IEnumerable<Inventoryes>> GetProduct();
+        Task<IEnumerable<Inventoryes>> GetProduct();
+        Task<int> AddProduct(Inventoryes inventoryesst);
+        Task<Inventoryes> GetProductById(int? postId);
+        Task<int> DeleteProduct(int? postId);
+
+        Task UpdateProduct(Inventoryes post);
     }
 }

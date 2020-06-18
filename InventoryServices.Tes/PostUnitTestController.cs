@@ -1,18 +1,15 @@
 ﻿using Inventory.Service.Api.Controllers;
-using Inventory.Service.Api.Persistance;
+using Inventory.Service.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using Xunit;
 
 namespace InventoryServices.Tes
 {
     public class PostUnitTestController
     {
-        private ProductRepositories repository;
+        private Repositorie repository;
         public static DbContextOptions<IventoryDbContext> dbContextOptions { get; }
         public static string connectionString = "Server=DOTNETFSD02;Database=Inventory;Trusted_Connection=True";
         //"Server=DOTNETFSD02;Database=Inventory;Trusted_Connection=True;"
@@ -30,7 +27,7 @@ namespace InventoryServices.Tes
             DummyDataDBInitializer db = new DummyDataDBInitializer();
             db.Seed(context);
 
-            repository = new ProductRepositories(context);
+            repository = new Repositorie(context);
 
         }
         private readonly ILogger<ProductController> _logger;

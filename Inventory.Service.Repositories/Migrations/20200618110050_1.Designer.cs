@@ -7,11 +7,11 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace Inventory.Service.Api.Migrations
+namespace Inventory.Service.Repositories.Migrations
 {
     [DbContext(typeof(IventoryDbContext))]
-    [Migration("20200613112359_2")]
-    partial class _2
+    [Migration("20200618110050_1")]
+    partial class _1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

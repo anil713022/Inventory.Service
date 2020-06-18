@@ -4,16 +4,14 @@ using Inventory.Service.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace Inventory.Service.Api.Migrations
+namespace Inventory.Service.Repositories.Migrations
 {
     [DbContext(typeof(IventoryDbContext))]
-    [Migration("20200613112359_2")]
-    partial class _2
+    partial class IventoryDbContextModelSnapshot : ModelSnapshot
     {
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

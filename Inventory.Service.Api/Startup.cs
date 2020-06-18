@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Inventory.Service.Api.Persistance;
+
 using Inventory.Service.Business;
 using Inventory.Service.Repositories;
 using Microsoft.AspNetCore.Builder;
@@ -35,7 +35,7 @@ namespace Inventory.Service.Api
             services.AddTokenAuthentication(Configuration);
             //services.AddScoped<IService, Services>();
             services.AddScoped<IRepositorie, Repositorie>();
-            services.AddScoped<IProductRepositories, ProductRepositories>();
+            //services.AddScoped<IProductRepositories, ProductRepositories>();
             services.AddMvc();
             services.AddDbContext<IventoryDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("IVM")));
             //services.AddDbContext<IventoryDbContext>(options=>options.UseSqlServer)

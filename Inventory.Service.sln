@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventory.Service.Api", "In
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventory.Service.Domain", "Inventory.Service.Domain\Inventory.Service.Domain.csproj", "{F04BDD2C-A576-4B1B-B901-7F243AD60DCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryServices.Tes", "InventoryServices.Tes\InventoryServices.Tes.csproj", "{B0A2BCA2-5F39-42E9-8875-E1C4C34046A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryServices.Tes", "InventoryServices.Tes\InventoryServices.Tes.csproj", "{B0A2BCA2-5F39-42E9-8875-E1C4C34046A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventory.Service.Repositories", "Inventory.Service.Repositories\Inventory.Service.Repositories.csproj", "{BF506FF6-94DF-452F-BD10-7AFE4212F83D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{B0A2BCA2-5F39-42E9-8875-E1C4C34046A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0A2BCA2-5F39-42E9-8875-E1C4C34046A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0A2BCA2-5F39-42E9-8875-E1C4C34046A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF506FF6-94DF-452F-BD10-7AFE4212F83D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF506FF6-94DF-452F-BD10-7AFE4212F83D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF506FF6-94DF-452F-BD10-7AFE4212F83D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF506FF6-94DF-452F-BD10-7AFE4212F83D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

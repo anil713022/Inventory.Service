@@ -1,5 +1,6 @@
-﻿using Inventory.Service.Api.Persistance;
+﻿
 using Inventory.Service.Domain;
+using Inventory.Service.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Text;

@@ -1,7 +1,6 @@
 C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Repositories\obj\Debug\netcoreapp3.1\Inventory.Service.Repositories.csprojAssemblyReference.cache
 C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Repositories\obj\Debug\netcoreapp3.1\Inventory.Service.Repositories.AssemblyInfoInputs.cache
 C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Repositories\obj\Debug\netcoreapp3.1\Inventory.Service.Repositories.AssemblyInfo.cs
-C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Repositories\obj\Debug\netcoreapp3.1\Inventory.Service.Repositories.csproj.CoreCompileInputs.cache
 C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Repositories\bin\Debug\netcoreapp3.1\Inventory.Service.Repositories.deps.json
 C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Repositories\bin\Debug\netcoreapp3.1\Inventory.Service.Repositories.dll
 C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Repositories\bin\Debug\netcoreapp3.1\Inventory.Service.Domain.dll
@@ -10,3 +9,4 @@ C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Reposit
 C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Repositories\bin\Debug\netcoreapp3.1\Inventory.Service.Repositories.pdb
 C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Repositories\obj\Debug\netcoreapp3.1\Inventory.Service.Repositories.dll
 C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Repositories\obj\Debug\netcoreapp3.1\Inventory.Service.Repositories.pdb
+C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Repositories\obj\Debug\netcoreapp3.1\Inventory.Service.Repositories.csproj.CoreCompileInputs.cache

@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Inventory.Service.Api.Persistance;
-using Inventory.Service.Business;
-using Inventory.Service.Domain;
+﻿using Inventory.Service.Domain;
 using Inventory.Service.Repositories;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using System;
+using System.Threading.Tasks;
 
 namespace Inventory.Service.Api.Controllers
 {
@@ -22,11 +17,13 @@ namespace Inventory.Service.Api.Controllers
 
         private readonly ILogger<ProductController> _logger;
 
-        private readonly IProductRepositories _ProductRepositories;
-        public ProductController(ILogger<ProductController> logger,IProductRepositories ProductRepositories)
+       
+        private readonly IRepositorie _ProductRepositories1;
+        public ProductController(ILogger<ProductController> logger, IRepositorie Repositorie)
         {
             _logger = logger;
-            _ProductRepositories = ProductRepositories;
+            
+            _ProductRepositories1 = Repositorie;
         }
 
         
@@ -37,7 +34,7 @@ namespace Inventory.Service.Api.Controllers
         {
             try
             {
-                var categories = await _ProductRepositories.GetProduct();
+                var categories = await _ProductRepositories1.GetProduct();
                 if (categories == null)
                 {
                     return NotFound();
@@ -60,7 +57,7 @@ namespace Inventory.Service.Api.Controllers
             {
                 try
                 {
-                    var postId = await _ProductRepositories.AddProduct(model);
+                    var postId = await _ProductRepositories1.AddProduct(model);
                     if (postId > 0)
                     {
                         return Ok(postId);
@@ -88,7 +85,7 @@ namespace Inventory.Service.Api.Controllers
             {
                 try
                 {
-                    await _ProductRepositories.UpdateProduct(model);
+                    await _ProductRepositories1.UpdateProduct(model);
 
                     return Ok();
                 }
@@ -118,7 +115,7 @@ namespace Inventory.Service.Api.Controllers
 
             try
             {
-                var post = await _ProductRepositories.GetProductById(postId);
+                var post = await _ProductRepositories1.GetProductById(postId);
 
                 if (post == null)
                 {
@@ -148,7 +145,7 @@ namespace Inventory.Service.Api.Controllers
 
             try
             {
-                result = await _ProductRepositories.DeleteProduct(postId);
+                result = await _ProductRepositories1.DeleteProduct(postId);
                 if (result == 0)
                 {
                     return NotFound();
