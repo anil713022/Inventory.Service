@@ -161,6 +161,10 @@ C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Api\bin
 C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
 C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Api\bin\Debug\netcoreapp3.1\NLog.dll
+C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Api\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Api\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
 C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Api\obj\Debug\netcoreapp3.1\Inventory.Service.Api.csproj.CoreCompileInputs.cache
 C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Api\obj\Debug\netcoreapp3.1\Inventory.Service.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Api\obj\Debug\netcoreapp3.1\Inventory.Service.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Api\bin\Debug\netcoreapp3.1\nlog.config

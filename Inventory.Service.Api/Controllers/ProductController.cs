@@ -39,11 +39,12 @@ namespace Inventory.Service.Api.Controllers
                 {
                     return NotFound();
                 }
-
+                _logger.LogInformation("Data Retuen sucessfully");
                 return Ok(categories);
             }
-            catch (Exception )
+            catch (Exception ex )
             {
+                _logger.LogInformation(ex.Message);
                 return BadRequest();
             }
 
@@ -60,16 +61,18 @@ namespace Inventory.Service.Api.Controllers
                     var postId = await _ProductRepositories1.AddProduct(model);
                     if (postId > 0)
                     {
+                        _logger.LogInformation(postId.ToString());
                         return Ok(postId);
                     }
                     else
                     {
+                        _logger.LogInformation("NotFound");
                         return NotFound();
                     }
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
-
+                    _logger.LogInformation(ex.Message);
                     return BadRequest();
                 }
 
@@ -93,6 +96,7 @@ namespace Inventory.Service.Api.Controllers
                 {
                     if (ex.GetType().FullName == "Microsoft.EntityFrameworkCore.DbUpdateConcurrencyException")
                     {
+                        _logger.LogInformation(ex.Message);
                         return NotFound();
                     }
 
@@ -110,6 +114,7 @@ namespace Inventory.Service.Api.Controllers
         {
             if (postId == null)
             {
+                _logger.LogInformation("No data ");
                 return BadRequest();
             }
 
@@ -124,8 +129,9 @@ namespace Inventory.Service.Api.Controllers
 
                 return Ok(post);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                _logger.LogInformation(ex.Message);
                 return BadRequest();
             }
         }

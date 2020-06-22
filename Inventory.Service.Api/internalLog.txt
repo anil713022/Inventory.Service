@@ -1,0 +1,6 @@
+2020-06-22 13:50:52.0492 Info Message Template Auto Format enabled
+2020-06-22 13:50:52.2146 Info Loading assembly: NLog.Web.AspNetCore
+2020-06-22 13:50:52.5204 Info Adding target FileTarget(Name=alldata)
+2020-06-22 13:50:52.6292 Info Adding target FileTarget(Name=otherFile-web)
+2020-06-22 13:50:52.7978 Info Validating config: TargetNames=alldata, ConfigItems=44, FilePath=C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-06-22 13:50:52.8293 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: otherFile-web
