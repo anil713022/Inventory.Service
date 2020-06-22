@@ -164,3 +164,7 @@ C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Api\obj
 C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Api\obj\Release\netcoreapp3.1\Inventory.Service.Api.dll
 C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Api\obj\Release\netcoreapp3.1\Inventory.Service.Api.pdb
 C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Api\obj\Release\netcoreapp3.1\Inventory.Service.Api.genruntimeconfig.cache
+C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Api\bin\Release\netcoreapp3.1\nlog.config
+C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Api\bin\Release\netcoreapp3.1\NLog.dll
+C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Api\bin\Release\netcoreapp3.1\NLog.Extensions.Logging.dll
+C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Api\bin\Release\netcoreapp3.1\NLog.Web.AspNetCore.dll

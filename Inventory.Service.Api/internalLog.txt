@@ -4,3 +4,33 @@
 2020-06-22 13:50:52.6292 Info Adding target FileTarget(Name=otherFile-web)
 2020-06-22 13:50:52.7978 Info Validating config: TargetNames=alldata, ConfigItems=44, FilePath=C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Api\bin\Debug\netcoreapp3.1\nlog.config
 2020-06-22 13:50:52.8293 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: otherFile-web
+2020-06-22 15:45:24.5699 Info Message Template Auto Format enabled
+2020-06-22 15:45:24.5699 Info Loading assembly: NLog.Web.AspNetCore
+2020-06-22 15:45:24.6400 Info Adding target FileTarget(Name=alldata)
+2020-06-22 15:45:24.6400 Info Adding target FileTarget(Name=otherFile-web)
+2020-06-22 15:45:24.6741 Info Validating config: TargetNames=alldata, ConfigItems=44, FilePath=C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Api\bin\Debug\netcoreapp3.1\NLog.config
+2020-06-22 15:45:24.6833 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: otherFile-web
+2020-06-22 15:45:24.6961 Info Configuration initialized.
+2020-06-22 15:45:24.6961 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.2.11786. Product version: 4.7.2+024896f64b840a743d3fd89e29c2186681e7795f. GlobalAssemblyCache: False
+2020-06-22 15:45:24.7684 Info AppDomain Shutting down. Logger closing...
+2020-06-22 15:45:24.7867 Info Logger has been shut down.
+2020-06-22 15:47:14.4881 Info Message Template Auto Format enabled
+2020-06-22 15:47:14.4881 Info Loading assembly: NLog.Web.AspNetCore
+2020-06-22 15:47:14.5515 Info Adding target FileTarget(Name=alldata)
+2020-06-22 15:47:14.5515 Info Adding target FileTarget(Name=otherFile-web)
+2020-06-22 15:47:14.5884 Info Validating config: TargetNames=alldata, ConfigItems=44, FilePath=C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Api\bin\Debug\netcoreapp3.1\NLog.config
+2020-06-22 15:47:14.6029 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: otherFile-web
+2020-06-22 15:47:14.6168 Info Configuration initialized.
+2020-06-22 15:47:14.6168 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.2.11786. Product version: 4.7.2+024896f64b840a743d3fd89e29c2186681e7795f. GlobalAssemblyCache: False
+2020-06-22 15:47:14.7084 Info AppDomain Shutting down. Logger closing...
+2020-06-22 15:47:14.7326 Info Logger has been shut down.
+2020-06-22 15:57:53.9240 Info Message Template Auto Format enabled
+2020-06-22 15:57:53.9359 Info Loading assembly: NLog.Web.AspNetCore
+2020-06-22 15:57:53.9926 Info Adding target FileTarget(Name=alldata)
+2020-06-22 15:57:53.9926 Info Adding target FileTarget(Name=otherFile-web)
+2020-06-22 15:57:54.0212 Info Validating config: TargetNames=alldata, ConfigItems=44, FilePath=C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\Inventory.Service.Api\bin\Debug\netcoreapp3.1\NLog.config
+2020-06-22 15:57:54.0212 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: otherFile-web
+2020-06-22 15:57:54.0434 Info Configuration initialized.
+2020-06-22 15:57:54.0434 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.2.11786. Product version: 4.7.2+024896f64b840a743d3fd89e29c2186681e7795f. GlobalAssemblyCache: False
+2020-06-22 15:57:54.1109 Info AppDomain Shutting down. Logger closing...
+2020-06-22 15:57:54.1288 Info Logger has been shut down.

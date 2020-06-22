@@ -242,3 +242,7 @@ C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\InventoryServices.Tes\obj
 C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\InventoryServices.Tes\obj\Debug\netcoreapp3.1\InventoryServices.Tes.dll
 C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\InventoryServices.Tes\obj\Debug\netcoreapp3.1\InventoryServices.Tes.pdb
 C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\InventoryServices.Tes\obj\Debug\netcoreapp3.1\InventoryServices.Tes.genruntimeconfig.cache
+C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\InventoryServices.Tes\bin\Debug\netcoreapp3.1\nlog.config
+C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\InventoryServices.Tes\bin\Debug\netcoreapp3.1\NLog.dll
+C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\InventoryServices.Tes\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+C:\Users\ctsdotnetfsd07\source\repos\Inventory.Service\InventoryServices.Tes\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
