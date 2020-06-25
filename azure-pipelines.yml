@@ -4,6 +4,13 @@
     SonarCloud: 'imsconn'
     organization: 'anil'
     scannerMode: 'MSBuild'
+    projectKey: 'tesr'
+    projectName: 'ggg'
+- task: SonarCloudPrepare@1
+  inputs:
+    SonarCloud: 'imsconn'
+    organization: 'anil'
+    scannerMode: 'MSBuild'
     projectKey: 'testkey'
     projectName: 'test'
 # Build and test ASP.NET Core projects targeting the full .NET Framework.
